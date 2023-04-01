@@ -322,7 +322,7 @@ function Environment.Functions:ResetSettings()
 		SaveSettings = true, -- Re-execute upon changing
 		ReloadOnTeleport = true,
 		Enabled = true,
-		TeamCheck = false,
+		TeamCheck = true,
 		AliveCheck = true,
 		WallCheck = false,
 		Sensitivity = 0, -- Animation length (in seconds) before fully locking onto target
@@ -336,7 +336,7 @@ function Environment.Functions:ResetSettings()
 	Environment.FOVSettings = {
 		Enabled = true,
 		Visible = true,
-		Amount = 90,
+		Amount = 420,
 		Color = "255, 255, 255",
 		LockedColor = "255, 70, 70",
 		Transparency = 0.5,
@@ -365,18 +365,3 @@ end
 --// Load
 
 Load(); SendNotification(Title, "Aimbot script successfully loaded! Check the GitHub page on how to configure the script.", 5)
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Aimbot-V2/Main.lua at main · Exunys/Aimbot-V2
